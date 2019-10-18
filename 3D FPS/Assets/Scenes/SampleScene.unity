@@ -635,6 +635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24db942c5f8548242b066b3844126d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  lookSensitivity: 3
 --- !u!114 &941514938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,6 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cf54cb6abd79ee4e8994cfa5fc70b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 399260798}
 --- !u!54 &941514939
 Rigidbody:
   m_ObjectHideFlags: 0
